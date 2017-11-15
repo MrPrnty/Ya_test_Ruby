@@ -1,6 +1,3 @@
-
-#You can implement step definitions for undefined steps with these snippets:
-
 Given("Открыть в браузере yandex.ru") do
     @driver.get('http://www.yandex.ru')
     @driver.manage().window().maximize()
